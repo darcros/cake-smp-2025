@@ -1,6 +1,10 @@
 FROM ghcr.io/paradigmmc/mcman:latest AS builder
 WORKDIR /server
 COPY . .
+
+ARG RCON_PASSWORD
+ENV RCON_PASSWORD=$RCON_PASSWORD
+
 RUN mcman build
 
 FROM eclipse-temurin:24-alpine
