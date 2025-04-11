@@ -18,8 +18,8 @@ files = ["README.md"]
 auto_update = false
 
 [options]
-success_line = ""
-stop_command = ""
+success_line = "]: Done"
+stop_command = "stop"
 
 [[mods]]
 type = "modrinth"
