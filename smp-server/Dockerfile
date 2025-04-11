@@ -1,4 +1,4 @@
-FROM ghcr.io/paradigmmc/mcman:latest as builder
+FROM ghcr.io/paradigmmc/mcman:latest AS builder
 WORKDIR /server
 COPY . .
 RUN mcman build
