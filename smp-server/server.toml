@@ -10,11 +10,7 @@ installer = "latest"
 SERVER_PORT = "25565"
 
 [launcher]
-eula_args = true
-nogui = true
-preset_flags = "aikars"
-game_args = " --universe ./universe/"
-memory = "6G"
+disable = true
 
 [markdown]
 files = ["README.md"]
