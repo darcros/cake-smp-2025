@@ -1,11 +1,13 @@
 #/bin/bash
 set -euo pipefail
 
-DOCKER_CONTAINER_USER=1000
-DOCKER_CONTAINER_GROUP=1000
+USER=1000
+GROUP=1000
 
-mkdir -p ./data/smp/universe; chown $DOCKER_CONTAINER_USER:$DOCKER_CONTAINER_GROUP ./data/smp/universe
-mkdir -p ./data/smp/databases; chown $DOCKER_CONTAINER_USER:$DOCKER_CONTAINER_GROUP ./data/smp/databases
-mkdir -p ./data/smp/logs; chown $DOCKER_CONTAINER_USER:$DOCKER_CONTAINER_GROUP ./data/smp/logs
+mkdir -p ./data/smp/universe; chown $USER:$GROUP ./data/smp/universe
+mkdir -p ./data/smp/databases; chown $USER:$GROUP ./data/smp/databases
+mkdir -p ./data/smp/logs; chown $USER:$GROUP ./data/smp/logs
+
+mkdir -p ./data/smp-backup/backups; chown $USER:$GROUP ./data/smp-backup/backups
 
 docker compose up --build
