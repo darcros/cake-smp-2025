@@ -59,3 +59,8 @@ version = "mhLtMoLk"
 type = "modrinth"
 id = "sleep-warp-updated"
 version = "vnRGqK0o"
+
+[[mods]]
+type = "modrinth"
+id = "sit!"
+version = "QTTlGVkz"
