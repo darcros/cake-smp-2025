@@ -34,6 +34,9 @@ services:
       - ./data/smp-backup/backups:/backups
 
   rcon:
+    depends_on:
+      smp:
+        condition: service_healthy
     image: itzg/rcon
     ports:
       - "4326:4326"
