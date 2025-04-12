@@ -12,9 +12,9 @@ SERVER_PORT = "25565"
 [launcher]
 eula_args = true
 nogui = true
-memory = "6G"
 preset_flags = "aikars"
 game_args = " --universe ./universe/"
+memory = "6G"
 
 [markdown]
 files = ["README.md"]
@@ -31,6 +31,11 @@ version = "FZ4q3wQK"
 
 [[mods]]
 type = "modrinth"
+id = "fabric-language-kotlin"
+version = "E4WyjCxJ"
+
+[[mods]]
+type = "modrinth"
 id = "easyauth"
 version = "MdRRckj6"
 
@@ -38,3 +43,8 @@ version = "MdRRckj6"
 type = "modrinth"
 id = "easywhitelist"
 version = "4ndHE533"
+
+[[mods]]
+type = "modrinth"
+id = "ledger"
+version = "cyKd32dm"
