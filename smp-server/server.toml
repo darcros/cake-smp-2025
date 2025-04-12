@@ -10,6 +10,8 @@ installer = "latest"
 SERVER_PORT = "25565"
 
 [launcher]
+eula_args = true
+nogui = true
 disable = true
 
 [markdown]
@@ -17,8 +19,6 @@ files = ["README.md"]
 auto_update = false
 
 [options]
-success_line = "]: Done"
-stop_command = "stop"
 
 [[mods]]
 type = "modrinth"
@@ -49,3 +49,8 @@ version = "cyKd32dm"
 type = "modrinth"
 id = "universal-graves"
 version = "ejJjBZIM"
+
+[[mods]]
+type = "modrinth"
+id = "chunky"
+version = "mhLtMoLk"
