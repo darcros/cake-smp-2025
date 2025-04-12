@@ -44,3 +44,8 @@ version = "4ndHE533"
 type = "modrinth"
 id = "ledger"
 version = "cyKd32dm"
+
+[[mods]]
+type = "modrinth"
+id = "universal-graves"
+version = "ejJjBZIM"
