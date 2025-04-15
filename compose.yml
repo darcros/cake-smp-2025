@@ -54,5 +54,21 @@ services:
       RWA_GAME: "minecraft"
       RWA_SERVER_NAME: "Cake SMP"
 
+  www:
+    image: caddy:2
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./web-server/caddy/:/etc/caddy/:ro
+      - ./web-server/www/:/www/:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    environment:
+      BASE_DOMAIN: "cake-smp.local"
+
 volumes:
   rcon:
+  caddy_data:
+  caddy_config:
