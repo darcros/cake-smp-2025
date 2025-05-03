@@ -11,7 +11,7 @@ services:
       retries: 5
       start_period: 60s
     volumes:
-      - ./data/smp:/server:z
+      - ./data/smp/server:/server:z
     ports:
       - "25565:25565"
       - "25575:25575"
@@ -33,7 +33,7 @@ services:
       RCON_PORT: "25575"
       RCON_PASSWORD: "${RCON_PASSWORD}"
     volumes:
-      - ./data/smp:/data/smp:ro,z
+      - ./data/smp/server:/data/smp:ro,z
       - ./data/smp-backup/backups:/backups:z
 
   rcon:
@@ -70,7 +70,7 @@ services:
     volumes:
       - ./web-server/caddy/:/etc/caddy/:ro,z
       - ./web-server/www/:/www/:ro,z
-      - ./data/smp/webmap:/webmap:ro,z
+      - ./data/smp/server/squaremap/web:/webmap:ro,z
       - caddy_data:/data
       - caddy_config:/config
     environment:
