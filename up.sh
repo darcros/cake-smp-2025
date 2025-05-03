@@ -7,6 +7,7 @@ GROUP=1000
 mkdir -p ./data/smp/universe; podman unshare chown $USER:$GROUP ./data/smp/universe
 mkdir -p ./data/smp/databases; podman unshare chown $USER:$GROUP ./data/smp/databases
 mkdir -p ./data/smp/logs; podman unshare chown $USER:$GROUP ./data/smp/logs
+mkdir -p ./data/smp/webmap; podman unshare chown $USER:$GROUP ./data/smp/webmap
 
 mkdir -p ./data/smp-backup/backups; podman unshare chown $USER:$GROUP ./data/smp-backup/backups
 

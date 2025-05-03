@@ -7,3 +7,8 @@ www.{$BASE_DOMAIN} {
 	file_server
   # templates
 }
+
+map.{$BASE_DOMAIN} {
+  root * /webmap
+  file_server
+}

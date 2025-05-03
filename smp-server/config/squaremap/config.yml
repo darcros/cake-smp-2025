@@ -1,0 +1,8 @@
+config-version: 2
+settings:
+    language-file: lang-en.yml
+    web-directory:
+        path: web
+        auto-update: true
+    internal-webserver:
+        enabled: false

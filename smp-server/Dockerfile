@@ -25,6 +25,7 @@ COPY --from=builder --chown=1000:1000 /server/server/ /server
 VOLUME /server/universe
 VOLUME /server/databases
 VOLUME /server/logs
+VOLUME /server/squaremap/web
 
 # ports
 EXPOSE 25565
