@@ -30,9 +30,7 @@ VOLUME /server/logs
 EXPOSE 25565
 EXPOSE 25575
 
-# healthcheck
+# copy executable for healthcheck
 COPY --from=mc-monitor --chmod=755 /mc-monitor /usr/local/bin/mc-monitor
-HEALTHCHECK --interval=5s --start-period=60s --retries=5 \
-  CMD mc-monitor status --host localhost --port 25565
 
 ENTRYPOINT [ "/server/start.sh" ]
