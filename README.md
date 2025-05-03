@@ -15,6 +15,7 @@ docker compose up -d
 
 Create a `.env` file in the root of the repository and add the following variables:
 
-| Name          | Description              |
-| ------------- | ------------------------ |
-| RCON_PASSWORD | Password for RCON access |
+| Name                    | Description                        |
+| ----------------------- | ---------------------------------- |
+| RCON_PASSWORD           | Password for RCON access           |
+| RCON_WEB_ADMIN_PASSWORD | Password for RCON web admin access |
