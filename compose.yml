@@ -11,10 +11,7 @@ services:
       retries: 5
       start_period: 60s
     volumes:
-      - ./data/smp/universe:/server/universe:z
-      - ./data/smp/databases:/server/databases:z
-      - ./data/smp/logs:/server/logs:z
-      - ./data/smp/webmap:/server/squaremap/web/:z
+      - ./data/smp:/server:z
     ports:
       - "25565:25565"
       - "25575:25575"
@@ -36,8 +33,7 @@ services:
       RCON_PORT: "25575"
       RCON_PASSWORD: "${RCON_PASSWORD}"
     volumes:
-      - ./data/smp/universe:/data/smp/universe:ro,z
-      - ./data/smp/databases:/data/smp/databases:ro,z
+      - ./data/smp:/data/smp:ro,z
       - ./data/smp-backup/backups:/backups:z
 
   rcon:
@@ -81,7 +77,6 @@ services:
       BASE_DOMAIN: "cake-smp.local"
 
 volumes:
-  # webmap:
   rcon:
   caddy_data:
   caddy_config:
