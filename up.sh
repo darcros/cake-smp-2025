@@ -4,11 +4,10 @@ set -euo pipefail
 USER=1000
 GROUP=1000
 
-mkdir -p ./data/smp/universe; podman unshare chown $USER:$GROUP ./data/smp/universe
-mkdir -p ./data/smp/databases; podman unshare chown $USER:$GROUP ./data/smp/databases
-mkdir -p ./data/smp/logs; podman unshare chown $USER:$GROUP ./data/smp/logs
-mkdir -p ./data/smp/webmap; podman unshare chown $USER:$GROUP ./data/smp/webmap
-
-mkdir -p ./data/smp-backup/backups; podman unshare chown $USER:$GROUP ./data/smp-backup/backups
+# ensure all mounted directories exist and are owned by the correct user
+mkdir -p "./data/smp/server/"
+mkdir -p "./data/smp/server/squaremap/web"
+mkdir -p "./data/smp-backup/backups"
+podman unshare chown -R "$USER:$GROUP" "./data"
 
 podman compose up --build

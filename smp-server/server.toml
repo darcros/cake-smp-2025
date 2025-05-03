@@ -12,7 +12,9 @@ SERVER_PORT = "25565"
 [launcher]
 eula_args = true
 nogui = true
-disable = true
+preset_flags = "aikars"
+game_args = "--universe ./universe/"
+memory = "6G"
 
 [markdown]
 files = ["README.md"]
