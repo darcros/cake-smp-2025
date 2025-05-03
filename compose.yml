@@ -30,7 +30,7 @@ services:
       SRC_DIR: "/data/"
       INCLUDES: "./smp/universe/,./smp/databases/EasyAuth/"
       BACKUP_INTERVAL: "8h"
-      BACKUP_ON_STARTUP: "true"
+      BACKUP_ON_STARTUP: "false"
       PRUNE_BACKUP_DAYS: "7"
       RCON_HOST: "smp"
       RCON_PORT: "25575"
