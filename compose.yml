@@ -64,7 +64,7 @@ services:
     # this will change the minimum port number for unprivileged users to bind to
     # it will be reset to 1024 on reboot
     ports:
-      - "8080:80"
+      - "80:80"
       - "443:443"
       - "443:443/udp"
     volumes:
