@@ -18,7 +18,7 @@ memory = "6G"
 
 [markdown]
 files = ["README.md"]
-auto_update = false
+auto_update = true
 
 [options]
 
