@@ -1,11 +1,5 @@
 {$BASE_DOMAIN} {
-  redir https://www.{host}{uri}
-}
-
-www.{$BASE_DOMAIN} {
-  root * /www
-	file_server
-  # templates
+  redir https://map.{host}{uri}
 }
 
 map.{$BASE_DOMAIN} {
