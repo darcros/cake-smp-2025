@@ -1,8 +1,8 @@
 FROM ghcr.io/paradigmmc/mcman:latest AS mcman
 
-FROM itzg/mc-monitor AS mc-monitor
+FROM docker.io/itzg/mc-monitor AS mc-monitor
 
-FROM eclipse-temurin:24-alpine
+FROM docker.io/library/eclipse-temurin:24-alpine
 
 COPY --from=mcman --chmod=755 /usr/bin/mcman /usr/local/bin/mcman
 COPY --from=mc-monitor --chmod=755 /mc-monitor /usr/local/bin/mc-monitor

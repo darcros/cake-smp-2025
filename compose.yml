@@ -20,7 +20,7 @@ services:
     depends_on:
       smp:
         condition: service_healthy
-    image: itzg/mc-backup
+    image: docker.io/itzg/mc-backup
     environment:
       BACKUP_NAME: "smp"
       BACKUP_METHOD: "tar"
@@ -40,7 +40,7 @@ services:
     depends_on:
       smp:
         condition: service_healthy
-    image: itzg/rcon
+    image: docker.io/itzg/rcon
     ports:
       - "4326:4326"
       - "4327:4327"
@@ -58,7 +58,7 @@ services:
       RWA_SERVER_NAME: "Cake SMP"
 
   www:
-    image: caddy:2
+    image: docker.io/library/caddy:2
     # note for podman: to allow binding to ports < 1024, you need to run the following command:
     # echo 80 | sudo tee /proc/sys/net/ipv4/ip_unprivileged_port_start
     # this will change the minimum port number for unprivileged users to bind to
