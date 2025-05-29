@@ -18,8 +18,4 @@ VOLUME /server
 EXPOSE 25565
 EXPOSE 25575
 
-# server config variables
-ARG RCON_PASSWORD
-ENV RCON_PASSWORD=$RCON_PASSWORD
-
 ENTRYPOINT [ "/template/entrypoint.sh" ]

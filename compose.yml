@@ -2,14 +2,14 @@ services:
   smp:
     build:
       context: ./smp-server/
-      args:
-        RCON_PASSWORD: ${RCON_PASSWORD}
     healthcheck:
       test: [ "CMD", "mc-monitor", "status", "--host", "localhost", "--port", "25565" ]
       interval: 5s
       timeout: 30s
       retries: 5
       start_period: 60s
+    environment:
+      RCON_PASSWORD: ${RCON_PASSWORD}
     volumes:
       - ./data/smp/server:/server:z
     ports:
