@@ -2,7 +2,7 @@
 
 ## Running
 
-All the stuff in this repo has been written to work with [podman](https://podman.io/) and [podman-compose](https://github.com/containers/podman-compose).
+All the stuff in this repo has been written to work with [podman](https://podman.io/) and [podman-compose](https://github.com/containers/podman-compose) in rootless mode.
 
 To start the server:
 

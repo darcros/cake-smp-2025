@@ -7,8 +7,6 @@ FROM docker.io/library/eclipse-temurin:24-alpine
 COPY --from=mcman --chmod=755 /usr/bin/mcman /usr/local/bin/mcman
 COPY --from=mc-monitor --chmod=755 /mc-monitor /usr/local/bin/mc-monitor
 
-USER 1000:1000
-
 WORKDIR /template
 COPY . .
 
