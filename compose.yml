@@ -11,7 +11,7 @@ services:
       retries: 5
       start_period: 60s
     volumes:
-      - ./data/smp/server:/server:z
+      - ./data/smp/server:/server:z,U
     ports:
       - "25565:25565"
       - "25575:25575"
@@ -34,7 +34,7 @@ services:
       RCON_PASSWORD: "${RCON_PASSWORD}"
     volumes:
       - ./data/smp/server:/data/smp:ro,z
-      - ./data/smp-backup/backups:/backups:z
+      - ./data/smp-backup/backups:/backups:z,U
 
   rcon:
     depends_on:
@@ -68,8 +68,8 @@ services:
       - "8443:443"
       - "8443:443/udp"
     volumes:
-      - ./web-server/caddy/:/etc/caddy/:ro,z
-      - ./web-server/www/:/www/:ro,z
+      - ./web-server/caddy/:/etc/caddy/:ro
+      - ./web-server/www/:/www/:ro
       - ./data/smp/server/squaremap/web:/webmap:ro,z
       - caddy_data:/data
       - caddy_config:/config
