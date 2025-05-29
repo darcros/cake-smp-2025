@@ -1,6 +1,8 @@
 # Cake SMP
 
-## Docker compose
+## Running
+
+All the stuff in this repo has been written to work with [podman](https://podman.io/) and [podman-compose](https://github.com/containers/podman-compose).
 
 To start the server:
 
@@ -8,7 +10,7 @@ To start the server:
 2. Run the following command in the root of the repository:
 
 ```bash
-docker compose up -d
+podman compose up -d
 ```
 
 ## Environment variables
