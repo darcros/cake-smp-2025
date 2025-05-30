@@ -1,13 +1,12 @@
 #!/bin/sh
 set -euo pipefail
 
-### build the server ###
-cd /template && mcman build --output /server
+# Build the server 
+(cd /template; mcman build --output /server)
 
-### prepare the server ###
-
-# Needed because Ledger won't create the directory itself
+# Last touches:
+# crete Ledger directory because it won't create it on its own
 mkdir -p /server/databases/ledger
 
-### start the server ###
-cd /server && ./start.sh
+# Start the server 
+(cd /server; ./start.sh)
