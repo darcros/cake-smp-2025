@@ -14,7 +14,7 @@ eula_args = true
 nogui = true
 preset_flags = "aikars"
 game_args = "--universe ./universe/"
-memory = "6G"
+memory = "4G"
 
 [markdown]
 files = ["README.md"]
