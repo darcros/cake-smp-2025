@@ -63,8 +63,8 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./web-server/caddy/:/etc/caddy/:ro
-      - ./web-server/www/:/www/:ro
+      - ./web-server/caddy/:/etc/caddy/:ro,Z
+      - ./web-server/www/:/www/:ro,Z
       - ./data/smp/server/squaremap/web:/webmap:ro,z
       - caddy_data:/data
       - caddy_config:/config
