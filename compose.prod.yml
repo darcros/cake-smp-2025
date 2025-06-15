@@ -1,0 +1,14 @@
+services:
+  smp:
+    restart: unless-stopped
+
+  smp-backup:
+    restart: unless-stopped
+
+  rcon:
+    restart: unless-stopped
+
+  www:
+    restart: unless-stopped
+    environment:
+      BASE_DOMAIN: "cake-smp.it"

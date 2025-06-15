@@ -1,4 +1,4 @@
 #!/bin/bash
 set -euo pipefail
 
-podman compose down --timeout 120
+podman compose --file compose.yml --file compose.prod.yml down --timeout 120

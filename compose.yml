@@ -37,9 +37,6 @@ services:
       - ./data/smp-backup/backups:/backups:z,U
 
   rcon:
-    depends_on:
-      smp:
-        condition: service_healthy
     image: docker.io/itzg/rcon
     ports:
       - "4326:4326"
@@ -65,8 +62,6 @@ services:
     # it will be reset to 1024 on reboot
     ports:
       - "8080:80"
-      - "8443:443"
-      - "8443:443/udp"
     volumes:
       - ./web-server/caddy/:/etc/caddy/:ro
       - ./web-server/www/:/www/:ro
