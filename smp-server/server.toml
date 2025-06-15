@@ -76,3 +76,8 @@ version = "L1i3PIWB"
 type = "modrinth"
 id = "disable-end"
 version = "PpFBmw8r"
+
+[[mods]]
+type = "modrinth"
+id = "simple-server-links"
+version = "LdRUojjV"

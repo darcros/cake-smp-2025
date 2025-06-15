@@ -32,4 +32,5 @@
 | [Sit!](https://modrinth.com/mod/sit!)                                     | Adds sitting to minecraft! Make any block a chair with endless customizability for hand restrictions and sittable blocks.       | QTTlGVkz |
 | [squaremap](https://modrinth.com/mod/squaremap)                           | squaremap is a minimalistic & lightweight world map viewer for Minecraft servers, using the vanilla map rendering style         | L1i3PIWB |
 | [Disable End](https://modrinth.com/mod/disable-end)                       | Adds a gamerule that allows you to dynamically disable collisions with end portal blocks                                        | PpFBmw8r |
+| [Simple Server Links](https://modrinth.com/mod/simple-server-links)       | Easily configure the Server Links button for your server                                                                        | LdRUojjV |
 <!--end:mcman-addons-->
