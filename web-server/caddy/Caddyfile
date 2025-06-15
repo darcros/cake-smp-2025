@@ -1,5 +1,5 @@
 http://mc.{$BASE_DOMAIN} {
-  redir https://map.{host}{uri}
+  redir https://map.{$BASE_DOMAIN}
 }
 
 http://map.{$BASE_DOMAIN} {
