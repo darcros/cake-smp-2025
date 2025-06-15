@@ -31,4 +31,5 @@
 | [SleepWarp (Updated)](https://modrinth.com/mod/sleep-warp-updated)        | Accelerates time when sleeping instead of skipping directly to day. Fork of SleepWarp updated to latest versions.               | vnRGqK0o |
 | [Sit!](https://modrinth.com/mod/sit!)                                     | Adds sitting to minecraft! Make any block a chair with endless customizability for hand restrictions and sittable blocks.       | QTTlGVkz |
 | [squaremap](https://modrinth.com/mod/squaremap)                           | squaremap is a minimalistic & lightweight world map viewer for Minecraft servers, using the vanilla map rendering style         | L1i3PIWB |
+| [Disable End](https://modrinth.com/mod/disable-end)                       | Adds a gamerule that allows you to dynamically disable collisions with end portal blocks                                        | PpFBmw8r |
 <!--end:mcman-addons-->

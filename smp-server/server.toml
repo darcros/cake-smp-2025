@@ -71,3 +71,8 @@ version = "QTTlGVkz"
 type = "modrinth"
 id = "squaremap"
 version = "L1i3PIWB"
+
+[[mods]]
+type = "modrinth"
+id = "disable-end"
+version = "PpFBmw8r"
