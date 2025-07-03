@@ -1,5 +1,5 @@
 name = "Cake SMP"
-mc_version = "1.21.5"
+mc_version = "1.21.7"
 
 [jar]
 type = "fabric"
@@ -25,59 +25,59 @@ auto_update = true
 [[mods]]
 type = "modrinth"
 id = "fabric-api"
-version = "FZ4q3wQK"
+version = "JIZogEYa"
 
 [[mods]]
 type = "modrinth"
 id = "fabric-language-kotlin"
-version = "E4WyjCxJ"
+version = "mccDBWqV"
 
 [[mods]]
 type = "modrinth"
 id = "easyauth"
-version = "MdRRckj6"
+version = "MsfOax3L"
 
 [[mods]]
 type = "modrinth"
 id = "easywhitelist"
-version = "4ndHE533"
+version = "9OoxSFQz"
 
-[[mods]]
-type = "modrinth"
-id = "ledger"
-version = "cyKd32dm"
+# [[mods]]
+# type = "modrinth"
+# id = "ledger"
+# version = "cyKd32dm"
 
 [[mods]]
 type = "modrinth"
 id = "universal-graves"
-version = "ejJjBZIM"
+version = "gdZmLCZD"
 
 [[mods]]
 type = "modrinth"
 id = "chunky"
-version = "mhLtMoLk"
+version = "inWDi2cf"
 
 [[mods]]
 type = "modrinth"
 id = "sleep-warp-updated"
-version = "vnRGqK0o"
+version = "2AMKOBLR"
 
 [[mods]]
 type = "modrinth"
 id = "sit!"
-version = "QTTlGVkz"
+version = "ImC46K5m"
 
-[[mods]]
-type = "modrinth"
-id = "squaremap"
-version = "L1i3PIWB"
+# [[mods]]
+# type = "modrinth"
+# id = "squaremap"
+# version = "L1i3PIWB"
 
-[[mods]]
-type = "modrinth"
-id = "disable-end"
-version = "PpFBmw8r"
+# [[mods]]
+# type = "modrinth"
+# id = "disable-end"
+# version = "PpFBmw8r"
 
-[[mods]]
-type = "modrinth"
-id = "simple-server-links"
-version = "LdRUojjV"
+# [[mods]]
+# type = "modrinth"
+# id = "simple-server-links"
+# version = "LdRUojjV"
