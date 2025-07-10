@@ -25,8 +25,12 @@
 | [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) | This is a mod that enables usage of the Kotlin programming language for Fabric mods.                                            | mccDBWqV |
 | [EasyAuth](https://modrinth.com/mod/easyauth)                             | Authentication mod for Fabric servers                                                                                           | MsfOax3L |
 | [EasyWhitelist](https://modrinth.com/mod/easywhitelist)                   | Name-based whitelist for Fabric servers                                                                                         | 9OoxSFQz |
+| [Ledger](https://modrinth.com/mod/ledger)                                 | A serverside logging mod                                                                                                        | f3h7no4G |
 | [Universal Graves](https://modrinth.com/mod/universal-graves)             | Customisable grave mod for Fabric!                                                                                              | gdZmLCZD |
 | [Chunky](https://modrinth.com/mod/chunky)                                 | Pre-generates chunks, quickly and efficiently                                                                                   | inWDi2cf |
 | [SleepWarp (Updated)](https://modrinth.com/mod/sleep-warp-updated)        | Accelerates time when sleeping instead of skipping directly to day. Fork of SleepWarp updated to latest versions.               | 2AMKOBLR |
 | [Sit!](https://modrinth.com/mod/sit!)                                     | Adds sitting to minecraft! Make any block a chair with endless customizability for hand restrictions and sittable blocks.       | ImC46K5m |
+| [squaremap](https://modrinth.com/mod/squaremap)                           | squaremap is a minimalistic & lightweight world map viewer for Minecraft servers, using the vanilla map rendering style         | Gvw4v06M |
+| [Simple Server Links](https://modrinth.com/mod/simple-server-links)       | Easily configure the Server Links button for your server                                                                        | LdRUojjV |
+| [OtterLib](https://modrinth.com/mod/otterlib)                             | A cool new simple library mod that everyone can use!                                                                            | LTg9ifOT |
 <!--end:mcman-addons-->

@@ -42,10 +42,10 @@ type = "modrinth"
 id = "easywhitelist"
 version = "9OoxSFQz"
 
-# [[mods]]
-# type = "modrinth"
-# id = "ledger"
-# version = "cyKd32dm"
+[[mods]]
+type = "modrinth"
+id = "ledger"
+version = "f3h7no4G"
 
 [[mods]]
 type = "modrinth"
@@ -67,17 +67,22 @@ type = "modrinth"
 id = "sit!"
 version = "ImC46K5m"
 
-# [[mods]]
-# type = "modrinth"
-# id = "squaremap"
-# version = "L1i3PIWB"
+[[mods]]
+type = "modrinth"
+id = "otterlib"
+version = "LTg9ifOT"
+
+[[mods]]
+type = "modrinth"
+id = "squaremap"
+version = "Gvw4v06M"
 
 # [[mods]]
 # type = "modrinth"
 # id = "disable-end"
 # version = "PpFBmw8r"
 
-# [[mods]]
-# type = "modrinth"
-# id = "simple-server-links"
-# version = "LdRUojjV"
+[[mods]]
+type = "modrinth"
+id = "simple-server-links"
+version = "LdRUojjV"
