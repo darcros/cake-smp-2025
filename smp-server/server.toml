@@ -77,10 +77,10 @@ type = "modrinth"
 id = "squaremap"
 version = "Gvw4v06M"
 
-# [[mods]]
-# type = "modrinth"
-# id = "disable-end"
-# version = "PpFBmw8r"
+[[mods]]
+type = "modrinth"
+id = "no-portals"
+version = "ghjbmWGw"
 
 [[mods]]
 type = "modrinth"

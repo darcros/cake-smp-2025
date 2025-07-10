@@ -30,7 +30,8 @@
 | [Chunky](https://modrinth.com/mod/chunky)                                 | Pre-generates chunks, quickly and efficiently                                                                                   | inWDi2cf |
 | [SleepWarp (Updated)](https://modrinth.com/mod/sleep-warp-updated)        | Accelerates time when sleeping instead of skipping directly to day. Fork of SleepWarp updated to latest versions.               | 2AMKOBLR |
 | [Sit!](https://modrinth.com/mod/sit!)                                     | Adds sitting to minecraft! Make any block a chair with endless customizability for hand restrictions and sittable blocks.       | ImC46K5m |
+| [OtterLib](https://modrinth.com/mod/otterlib)                             | A cool new simple library mod that everyone can use!                                                                            | LTg9ifOT |
 | [squaremap](https://modrinth.com/mod/squaremap)                           | squaremap is a minimalistic & lightweight world map viewer for Minecraft servers, using the vanilla map rendering style         | Gvw4v06M |
 | [Simple Server Links](https://modrinth.com/mod/simple-server-links)       | Easily configure the Server Links button for your server                                                                        | LdRUojjV |
-| [OtterLib](https://modrinth.com/mod/otterlib)                             | A cool new simple library mod that everyone can use!                                                                            | LTg9ifOT |
+| [No Portals](https://modrinth.com/mod/no-portals)                         | Disable Nether Portals, End Portals, and End Gateways at your will.                                                             | ghjbmWGw |
 <!--end:mcman-addons-->
