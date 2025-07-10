@@ -1,6 +1,6 @@
 
 # Check the README for a list of generic link types.
 [links]
-	"known_server_link.community" = "https://discord.gg/GM9Efa7c5x"
-	"known_server_link.website" = "https://map.cake-smp.it"
+	"Discord" = "https://discord.gg/GM9Efa7c5x"
+	"Web Map" = "https://map.cake-smp.it"
 
