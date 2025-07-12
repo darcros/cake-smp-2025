@@ -16,4 +16,7 @@ VOLUME /server
 EXPOSE 25565
 EXPOSE 25575
 
+# voice chat mod
+EXPOSE 24454
+
 ENTRYPOINT [ "/template/entrypoint.sh" ]

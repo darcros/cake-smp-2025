@@ -13,8 +13,9 @@ services:
     volumes:
       - ./data/smp/server:/server:z,U
     ports:
-      - "25565:25565"
-      - "25575:25575"
+      - "25565:25565" # Minecraft
+      - "25575:25575" # RCON
+      - "24454:24454/udp" # voice chat
 
   smp-backup:
     depends_on:

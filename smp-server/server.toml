@@ -86,3 +86,13 @@ version = "ghjbmWGw"
 type = "modrinth"
 id = "simple-server-links"
 version = "LdRUojjV"
+
+[[mods]]
+type = "modrinth"
+id = "simple-voice-chat"
+version = "YjxCZ3Wx"
+
+[[mods]]
+type = "modrinth"
+id = "voice-chat-interaction"
+version = "prgeBDfn"
