@@ -38,6 +38,8 @@ services:
       - ./data/smp-backup/backups:/backups:z,U
 
   rcon:
+    depends_on:
+      - smp
     image: docker.io/itzg/rcon
     ports:
       - "4326:4326"
